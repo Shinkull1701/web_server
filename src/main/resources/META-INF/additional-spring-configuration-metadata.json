@@ -1,0 +1,27 @@
+{"properties": [
+  {
+    "name": "encryption.salt.rounds",
+    "type": "java.lang.Integer",
+    "description": "Number of salt rounds for BCrypt encryption."
+  },
+  {
+    "name": "jwt.algorithm.key",
+    "type": "java.lang.String",
+    "description": "The key used for JWT algorithm."
+  },
+  {
+    "name": "jwt.issuer",
+    "type": "java.lang.String",
+    "description": "The issuer for the JWT token."
+  },
+  {
+    "name": "jwt.expiryInSeconds",
+    "type": "java.lang.Integer",
+    "description": "The expiry time for the JWT token in seconds."
+  },
+  {
+    "name": "jwt.expiryInSeconds",
+    "type": "java.lang.String",
+    "description": "A description for 'jwt.expiryInSeconds'"
+  }
+]}
